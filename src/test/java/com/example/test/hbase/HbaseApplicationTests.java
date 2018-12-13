@@ -25,7 +25,7 @@ public class HbaseApplicationTests {
 
     @Test
     public void getDataByStartStopRow(){
-        List<String> result = hbaseServiceImpl.getValueByStartStopRowKey("test_real_data","gprs","gprs","d-1040-20181130-20181201033211","d-1040-20181130-20181201035211");
+        List<String> result = hbaseServiceImpl.getValueByStartStopRowKey("test","t","val","1","1000");
         System.out.println(result);
     }
 
